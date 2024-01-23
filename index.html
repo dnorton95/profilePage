@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="directory">
+            <h1>Profile</h1>
+            <p>Home</p>
+            <p>My Profile</p>
+            <p>Find Connections</p>
+        </div>
+        <div class="signout">
+            <button>Sign Out</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="webpage">
+            <div class="column1">
+                <div class="user-card">
+                    <div class="user-header"></div>
+                    <div class="user-footer">
+                        <img class="user-id" src="images/user-circle.png" alt="user-id" height="80" width="auto">
+                        <h1>Daniel Norton "Ketterer"</h1>
+                        <div class="img-text">
+                            <img class="icon" src="icons/map-marker.png" alt="map-marker" height="20" width="auto"/>
+                            <p>Atlanta, GA</p>
+                        </div>
+                        <p>Developer | Engineer | Problem Solver | Master of shadow and the internet!</p>
+                        <div class="img-text">
+                            <img class="icon" src="icons/gear.png" alt="gear" height="20" width="auto"/>
+                            <button onclick="editProfile()" class="button">Edit Profile</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="ed-header">
+                        <p>Education</p>
+                    </div>
+                    <div class="ed-footer">
+                        <p> <strong>CodingDojo - Full Stack Bootcamp </strong></p>
+                        <div class="ed-footer-text">
+                            <p>Dec 2023 - May 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="connection-requests">
+                    <div class="conreq-header">
+                        <div class="img-text">
+                            <p class="notification">2</p>
+                            <div class="conreq-header-text">
+                            <p>Connection Requests</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conreq-footer">
+                        <div class="imgText">
+                            <img class="connection-id" src="images/todd-s.jpg" alt="user-id" height="30" width="auto"/>
+                            <p>Todd E</p>
+                            <img class="icon" src="icons/accept-circle.png" alt="accept-circle" height="20" width="auto"/>
+                            <img class="icon" src="icons/close-circle.png" alt="close-circle" height="20" width="auto"/>
+                        </div>
+                        <div class="imgText">
+                            <img class="connection-id" src="images/phil-s.jpg" alt="user-id" height="30" width="auto"/>
+                            <p>Phil K</p>
+                            <img class="icon" src="icons/accept-circle.png" alt="accept-circle" height="20" width="auto"/>
+                            <img class="icon" src="icons/close-circle.png" alt="close-circle" height="20" width="auto"/>
+                        </div>
+                </div>
+
+                <div class="your-connections">
+                    <div class="yourcon-header">
+                        <div class="img-text">
+                            <p class="notification">500+</p>
+                            <p>Your Connections</p>
+                        </div>
+                    </div>
+                    <div class="yourcon-body">
+                        <div class="img-text">
+                            <img class="connection-id" src="images/adrien-s.jpg" alt="user-id" height="30" width="auto"/>
+                            <p>Adrien D</p>
+                        </div>
+                        <div class="img-text">
+                            <img class="connection-id" src="images/anne-s.jpg" alt="user-id" height="30" width="auto"/>
+                            <p>Anne J</p>
+                        </div>
+                        <div class="img-text">
+                            <img class="connection-id" src="images/alayne-s.jpg" alt="user-id" height="30" width="auto"/>
+                            <p>Alayne T</p>
+                        </div>
+                        <div class="img-text">
+                            <img class="connection-id" src="images/arry-s.jpg" alt="user-id" height="30" width="auto"/>
+                            <p>Arry Y</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="yourcon-footer">
+                        <button class="button">View More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script
+</body>
+</html>

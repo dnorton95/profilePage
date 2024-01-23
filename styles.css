@@ -1,0 +1,169 @@
+* {
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+.container {
+    width: auto;
+    height: 670px;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.directory {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    justify-content:flex-end;
+    margin-left: 20px;
+    padding-right: 300px;
+}
+.signout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.img-text {
+    display: flex; 
+}
+
+.webpage {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.user-card {
+    border: solid;
+    border-color: grey;
+    height: auto;
+}
+
+.user-header {
+    background-color:#18a2b8 ;
+    width: auto;
+    height: 100px;
+}
+.user-footer {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.user-id {
+    margin-top: -50px;
+}
+
+h1 {
+    margin: -5px;
+}
+
+.imgText {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.education {
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.ed-header {
+    background-color:#333333;
+    color: white;
+    padding-left: 20px;
+}
+
+.ed-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ed-footer-text {
+    color: grey;
+}
+
+.connection-requests {
+    border-style: solid;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conreq-header {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    padding: 5px;
+    height: 50px;
+}
+
+.conreq-footer {
+    padding: 20px;
+}
+
+.notification {
+    border-style: solid;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+}
+
+.your-connections {
+    border-style: solid;
+    margin-top: 30px;
+}
+
+.yourcon-header {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    padding: 5px;
+    height: 40px;
+}
+.yourcon-body {
+    padding: 20px
+}
+
+.yourcon-footer {
+    border-style: solid;
+    padding: 5px;
+}
+
+.button {
+    background-color: white;
+    border-style: none;
+    color: purple;
+}
+
+.connection-id {
+    border-style: solid;
+    border-radius: 50%;
+}
